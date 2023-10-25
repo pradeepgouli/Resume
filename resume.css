@@ -1,0 +1,76 @@
+@media only screen and (max-width:820px){
+    body{
+        background-color: orange;
+    }
+}
+
+#navdiv{
+    border: 3px solid rgb(115, 112, 112);
+    display: flex;
+}
+
+#photo1{
+    border: 2px solid black;
+    background-color: black;
+}
+
+#heading{
+    border: 2 px solid black;
+    width: 80%;
+    background-color: darkgray;
+    align-content: center;
+    padding-top: 30px;
+    padding-left: 30%;
+  }
+
+#info{
+    width: 30%;
+    background-color: darkgray;
+    color: black;
+}
+#info:hover{
+    color: rgba(68, 62, 125, 0.784);
+    font-size: large;
+}
+
+#section{
+    display: inline;
+}
+
+#sec1{
+    height: 330px;
+    width: 30%;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+    color: black; 
+    font-size: larger;
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+    font-size: large
+    }
+button{
+    display: block;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 50px;  
+    width: 50%; 
+    height: 10%;
+     
+}
+button:hover{
+    background: rgb(236, 190, 10);
+}
+#sec2{
+    float: right;
+    height: 330px;
+    width: 70%;
+    margin-top: -335px;
+    border: 2px solid black;
+}
